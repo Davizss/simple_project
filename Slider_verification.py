@@ -243,8 +243,8 @@ class YaoLiuSan(object):
 
 
 if __name__ == '__main__':
-    username = '15313690727@163.com'
-    password = 'Wmima1314'
+    username = ''
+    password = ''
     obj = YaoLiuSan(username, password)
     result = obj.login()
     for k, v in result.items():
