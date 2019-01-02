@@ -18,7 +18,7 @@ class MaYiProxyMiddleware(object):
         :return: 身份验证及代理
         """
         appkey = "249349693"
-        secret = "c57955ade91fe9b3f8b78f0d49fa6c7b"
+        secret = ""
         mayi_url = "s5.proxy.mayidaili.com"
         mayi_port = "8123"
         mayi_proxy = '{}:{}'.format(mayi_url, mayi_port)
